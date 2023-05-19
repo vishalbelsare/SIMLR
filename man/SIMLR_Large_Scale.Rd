@@ -37,8 +37,9 @@ list of 8 elements describing the clusters obtained by SIMLR, of which y are the
 perform the SIMLR clustering algorithm for large scale datasets
 }
 \examples{
+data(ZeiselAmit)
 resized = ZeiselAmit$in_X[, 1:340]
-\dontrun{
+\donttest{
 SIMLR_Large_Scale(X = resized, c = ZeiselAmit$n_clust, k = 5, kk = 5)
 }
 

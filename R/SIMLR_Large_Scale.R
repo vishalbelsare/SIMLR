@@ -3,8 +3,9 @@
 #' @title SIMLR Large Scale 
 #'
 #' @examples
+#' data(ZeiselAmit)
 #' resized = ZeiselAmit$in_X[, 1:340]
-#' \dontrun{
+#' \donttest{
 #' SIMLR_Large_Scale(X = resized, c = ZeiselAmit$n_clust, k = 5, kk = 5)
 #' }
 #' 
